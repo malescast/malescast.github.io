@@ -103,18 +103,96 @@
 </nav>
 
       
-    <h1>test20</h1>
+    <div class="headline--view-screencast">
+  <div class="headline__content--view-screencast">
+    <div class="container">
+      <div class="video-holder">
+  <video id="malescast-video" class="video-js vjs-default-skin vjs-big-play-centered"
+        controls preload="auto" width="100%" height="530" data-setup="{}"
+        poster="http://malescast.dev/img/poster.jpg" >
+    <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+  </video>
+</div>
 
-level :
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-9 video-description__body">
+        <h1>test20
+        
+        </h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente excepturi inventore dolorum ipsa molestias nam, ducimus eligendi corporis, sunt pariatur repellendus molestiae minus eaque blanditiis, quo. Quam et reprehenderit, officiis.</p>
+
+        <blockquote>
+  <small>Ada pertanyaan? Komentar? Kritik? Mention kita di <a href="https://twitter.com/intent/tweet?screen_name=malescast" target="_blank">@malescast</a></small>
+</blockquote>
+
+
+    </div>
+    <div class="col-md-3 video-description__sidebar">
+      <table class="table table-hover table-underline">
+        <tbody>
+          <tr>
+  <td><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Published</td>
+  <td>28 Oct 2015</td>
+</tr>
+<tr>
+  <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Technology</td>
+  <td>
+      
+    
+            <a href="/topic/angular/" style="text-decoration: blink;">
+                <span class="label label-info">Angular</span>
+            </a>
+    
 
     
-        <a href="/topic/level-beginner/">Beginner</a>
+            <a href="/topic/javascript/" style="text-decoration: blink;">
+                <span class="label label-info">Javascript</span>
+            </a>
     
 
     
 
+    
 
-| published: Thu Oct 22 2015 21:14:27 GMT+0700
+
+  </td>
+</tr>
+<tr>
+  <td><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Duration</td>
+  <td>00:12:00</td>
+</tr>
+<tr>
+  <td><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Level</td>
+  <td>
+    <a href="/topic/level-advanced" style="text-decoration: blink;">
+      <span class="detail-level detail-level--advanced">advanced</span>
+    </a>
+  </td>
+</tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- @if ($screencast->related_video->count() > 0)
+    <h2 class="text-center">Related Video</h2>
+    <hr class="short">
+    <div class="row block-lessons">
+    @foreach ($screencast->related_video->get()->random($screencast->related_video->count() > 2 ? 3 : $screencast->related_video->count()) as $model)
+      @include('layouts._item-holder', ['model'=>$model])
+    @endforeach
+    </div>
+  @endif -->
+
+</div>
 
 
 

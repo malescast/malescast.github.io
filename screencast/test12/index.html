@@ -103,18 +103,81 @@
 </nav>
 
       
-    <h1>test12</h1>
+    <div class="headline--view-screencast">
+  <div class="headline__content--view-screencast">
+    <div class="container">
+      <div class="video-holder">
+  <video id="malescast-video" class="video-js vjs-default-skin vjs-big-play-centered"
+        controls preload="auto" width="100%" height="530" data-setup="{}"
+        poster="http://malescast.dev/img/poster.jpg" >
+    <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+  </video>
+</div>
 
-level :
+    </div>
+  </div>
+</div>
 
-    
-        <a href="/topic/level-beginner/">Beginner</a>
-    
+<div class="container">
+  <div class="row">
+    <div class="col-md-9 video-description__body">
+        <h1>test12
+        
+          <small><span class="label label-success item__free">free</span></small>
+        
+        </h1>
 
-    
+        
+        <blockquote>
+  <small>Ada pertanyaan? Komentar? Kritik? Mention kita di <a href="https://twitter.com/intent/tweet?screen_name=malescast" target="_blank">@malescast</a></small>
+</blockquote>
 
 
-| published: Mon Oct 12 2015 21:13:57 GMT+0700
+    </div>
+    <div class="col-md-3 video-description__sidebar">
+      <table class="table table-hover table-underline">
+        <tbody>
+          <tr>
+  <td><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Published</td>
+  <td>12 Oct 2015</td>
+</tr>
+<tr>
+  <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Technology</td>
+  <td>
+      
+
+  </td>
+</tr>
+<tr>
+  <td><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Duration</td>
+  <td>undefined</td>
+</tr>
+<tr>
+  <td><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Level</td>
+  <td>
+    <a href="/topic/level-undefined" style="text-decoration: blink;">
+      <span class="detail-level detail-level--undefined">undefined</span>
+    </a>
+  </td>
+</tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- @if ($screencast->related_video->count() > 0)
+    <h2 class="text-center">Related Video</h2>
+    <hr class="short">
+    <div class="row block-lessons">
+    @foreach ($screencast->related_video->get()->random($screencast->related_video->count() > 2 ? 3 : $screencast->related_video->count()) as $model)
+      @include('layouts._item-holder', ['model'=>$model])
+    @endforeach
+    </div>
+  @endif -->
+
+</div>
 
 
 
