@@ -227,7 +227,7 @@ th {
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important; }
-  .label, .table-underline .detail-level {
+  .label {
     border: 1px solid #000; }
   .table {
     border-collapse: collapse !important; }
@@ -4176,7 +4176,7 @@ tbody.collapse.in {
     background-color: #18BC9C;
     cursor: not-allowed; }
 
-.label, .table-underline .detail-level {
+.label {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -4187,13 +4187,13 @@ tbody.collapse.in {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em; }
-  .label:empty, .table-underline .detail-level:empty {
+  .label:empty {
     display: none; }
-  .btn .label, .btn .table-underline .detail-level, .table-underline .btn .detail-level {
+  .btn .label {
     position: relative;
     top: -1px; }
 
-a.label:hover, .table-underline a.detail-level:hover, a.label:focus, .table-underline a.detail-level:focus {
+a.label:hover, a.label:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer; }
@@ -4208,9 +4208,9 @@ a.label:hover, .table-underline a.detail-level:hover, a.label:focus, .table-unde
   .label-primary[href]:hover, .label-primary[href]:focus {
     background-color: #1a242f; }
 
-.label-success, .table-underline .detail-level--beginner {
+.label-success {
   background-color: #18BC9C; }
-  .label-success[href]:hover, .table-underline [href].detail-level--beginner:hover, .label-success[href]:focus, .table-underline [href].detail-level--beginner:focus {
+  .label-success[href]:hover, .label-success[href]:focus {
     background-color: #128f76; }
 
 .label-info {
@@ -4218,14 +4218,14 @@ a.label:hover, .table-underline a.detail-level:hover, a.label:focus, .table-unde
   .label-info[href]:hover, .label-info[href]:focus {
     background-color: #217dbb; }
 
-.label-warning, .table-underline .detail-level--intermediate {
+.label-warning {
   background-color: #F39C12; }
-  .label-warning[href]:hover, .table-underline [href].detail-level--intermediate:hover, .label-warning[href]:focus, .table-underline [href].detail-level--intermediate:focus {
+  .label-warning[href]:hover, .label-warning[href]:focus {
     background-color: #c87f0a; }
 
-.label-danger, .table-underline .detail-level--advanced {
+.label-danger {
   background-color: #E74C3C; }
-  .label-danger[href]:hover, .table-underline [href].detail-level--advanced:hover, .label-danger[href]:focus, .table-underline [href].detail-level--advanced:focus {
+  .label-danger[href]:hover, .label-danger[href]:focus {
     background-color: #d62c1a; }
 
 .badge {
@@ -7166,9 +7166,6 @@ body {
   @media (max-width: 992px) {
     body {
       margin-bottom: 200px; } }
-  @media (max-width: 768px) {
-    body {
-      margin-bottom: 260px; } }
 
 footer {
   padding-top: 40px;
@@ -7180,345 +7177,5 @@ footer {
   @media (max-width: 992px) {
     footer {
       height: 320px !important; } }
-
-/* Datatable
--------------------------------------------------- */
-.datatable--hover-action {
-  display: none; }
-
-tr:hover .datatable--hover-action {
-  display: inline-block;
-  float: right; }
-
-form.datatable--hover-action > input[type="submit"] {
-  padding: 0.2em 0.6em 0.3em;
-  font-size: 75%;
-  line-height: 1;
-  border-radius: 3px; }
-
-/* Headline Element on home page
--------------------------------------------------- */
-.headline, .headline--view-screencast, .headline--course {
-  background-size: cover;
-  color: white;
-  margin-top: -1.4em; }
-
-.headline--view-screencast {
-  background-color: black; }
-
-.headline--course {
-  margin-top: -1.5em;
-  margin-bottom: 4em;
-  color: white; }
-
-.headline__content, .headline__content--course, .headline__content--course-view, .headline__content--view-screencast {
-  padding-top: 14em;
-  padding-bottom: 8em;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  text-align: center; }
-  @media (max-width: 768px) {
-    .headline__content, .headline__content--course, .headline__content--course-view, .headline__content--view-screencast {
-      padding-top: 2em;
-      padding-bottom: 6em; } }
-  .headline__content hr, .headline__content--course hr, .headline__content--course-view hr, .headline__content--view-screencast hr {
-    margin-left: auto;
-    margin-right: auto;
-    width: 6em;
-    background-color: #CCCCCC;
-    height: .2em;
-    border: none; }
-  .headline__content small, .headline__content--course small, .headline__content--course-view small, .headline__content--view-screencast small {
-    color: inherit; }
-  .headline__content h2, .headline__content--course h2, .headline__content--course-view h2, .headline__content--view-screencast h2 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-
-.headline__content--course, .headline__content--course-view, .headline__content--view-screencast {
-  padding-top: 5em;
-  padding-bottom: 4em;
-  text-align: left; }
-  .headline__content--course hr, .headline__content--course-view hr, .headline__content--view-screencast hr {
-    margin-left: 0px;
-    margin-right: auto;
-    width: 6em;
-    background-color: white;
-    height: .2em;
-    border: none;
-    color: white; }
-
-.headline__content--course-view {
-  padding-top: 1.45em; }
-
-.headline__content--view-screencast {
-  padding-top: 1em;
-  padding-bottom: 1em; }
-  .headline__content--view-screencast .headline__heading {
-    text-align: center;
-    margin-bottom: 0.7em; }
-
-.headline__heading {
-  font-size: 4em;
-  font-family: 'Abril Fatface', cursive; }
-  @media (max-width: 768px) {
-    .headline__heading {
-      font-size: 2.5em; } }
-
-.headline__cta {
-  margin-top: 2em; }
-
-.group-title {
-  font-size: 2.5em;
-  margin-top: 70px;
-  text-align: center; }
-  @media (max-width: 768px) {
-    .group-title {
-      font-size: 2em; } }
-
-.group-title__hr {
-  margin-left: auto;
-  margin-right: auto;
-  width: 6em;
-  background-color: #F39C12;
-  height: .2em;
-  border: none;
-  margin-bottom: 50px;
-  margin-top: 40px; }
-
-/* Video Item Thumbnail
--------------------------------------------------- */
-.block-lessons .item-holder {
-  margin-bottom: 4em; }
-
-.block-lessons .item__description-holder {
-  height: 140px; }
-
-.block-lessons .item__overlay:hover, .block-lessons .item__overlay--video:hover, .block-lessons .item__overlay--course:hover {
-  background: none rgba(0, 0, 0, 0.1); }
-
-.block-lessons .item__coming-soon-cover {
-  width: 350px;
-  height: 197px;
-  background-color: #ecf0f1; }
-  .block-lessons .item__coming-soon-cover:before {
-    transition: 150ms;
-    font-family: 'Glyphicons Halflings';
-    content: '\e023';
-    color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 100;
-    margin-left: -50px;
-    margin-top: -50px;
-    font-size: 100px;
-    line-height: 100%;
-    text-align: center;
-    width: 100px;
-    height: 100px; }
-
-.block-lessons .item__overlay, .block-lessons .item__overlay--video, .block-lessons .item__overlay--course {
-  transition: 150ms;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 100;
-  cursor: pointer;
-  background: none rgba(0, 0, 0, 0.6);
-  border-radius: 4px; }
-  .block-lessons .item__overlay:before, .block-lessons .item__overlay--video:before, .block-lessons .item__overlay--course:before {
-    transition: 150ms;
-    font-family: 'Glyphicons Halflings';
-    content: '\e029';
-    color: #f2f2f2;
-    opacity: 0.5;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 100;
-    margin-left: -50px;
-    margin-top: -50px;
-    font-size: 100px;
-    line-height: 100%;
-    text-align: center;
-    width: 100px;
-    height: 100px; }
-
-.block-lessons .item__overlay--course:before {
-  font-family: 'Glyphicons Halflings';
-  content: '\e056'; }
-
-.item__logo {
-  position: absolute;
-  bottom: 10px;
-  left: 10px; }
-
-.item__level, .item__level--beginner, .item__level--intermediate, .item__level--advanced, .item__level--mixed {
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
-  text-transform: uppercase;
-  color: white;
-  background: #3498DB;
-  padding: 3px 6px 3px 6px;
-  font-size: 13px; }
-
-.item__level--beginner {
-  background: #18BC9C; }
-
-.item__level--intermediate {
-  background: #F39C12; }
-
-.item__level--advanced {
-  background: #E74C3C; }
-
-.item__media-holder {
-  position: relative; }
-  .item__media-holder img {
-    border-radius: 4px;
-    width: 100%; }
-
-.item__info {
-  margin-bottom: 5px;
-  font-size: 19px; }
-
-.item__duration {
-  color: #95a5a6; }
-
-.item__category {
-  margin-left: 5px;
-  color: #95a5a6; }
-
-.item__free {
-  margin-left: 5px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
-
-.item__date-planned {
-  border-style: dashed;
-  border-color: #ecf0f1;
-  color: #95a5a6;
-  border-width: 2px;
-  border-radius: 8px;
-  padding: 4px 6px 4px 6px;
-  display: inline-block;
-  margin-top: 5px;
-  font-size: 15px; }
-
-.video-holder {
-  text-align: center;
-  margin: auto;
-  width: 80%; }
-  @media (max-width: 992px) {
-    .video-holder {
-      width: 100%; } }
-
-.video-js {
-  padding-top: 62.25%;
-  width: 100%; }
-
-.vjs-fullscreen {
-  padding-top: 0px; }
-
-.video-caption {
-  display: inline-block;
-  float: left;
-  margin-left: 10px;
-  font-size: 15px; }
-
-/* Single Video Page:
--------------------------------------------------- */
-.vjs-poster {
-  border-radius: 8px; }
-
-.video-description__sidebar {
-  margin-top: 21px; }
-
-.table-underline tr {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #3498DB; }
-  .table-underline tr td {
-    text-align: right; }
-  .table-underline tr td:first-child {
-    text-align: left;
-    color: #95a5a6; }
-
-.table-underline .detail-level {
-  text-transform: uppercase; }
-
-/* Utility
--------------------------------------------------- */
-hr.short {
-  margin-left: auto;
-  margin-right: auto;
-  width: 6em;
-  background-color: #F39C12;
-  height: .2em;
-  border: none; }
-
-/* View Course Page
--------------------------------------------------- */
-.course-info {
-  background: transparent;
-  border: 2px solid;
-  border-radius: 19px;
-  padding: 6px 12px;
-  marrgin-right: 6px;
-  font-size: 19px;
-  color: white; }
-  .course-info:hover {
-    color: #ecf0f1; }
-  .course-info a {
-    color: white;
-    text-decoration: none; }
-
-.video-list a {
-  color: inherit;
-  text-decoration: none !important; }
-  .video-list a:hover {
-    color: #18BC9C; }
-
-.course-sidebar-title--first {
-  margin-top: 0px; }
-
-/* View course video
--------------------------------------------------- */
-.video-description__panel {
-  margin-top: 24px; }
-
-.video-description__course {
-  margin-bottom: 0px;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 19px; }
-
-.video-description__title {
-  margin-top: 0px; }
-
-/* Custom Icon Font for Video JS
---------------------------------------------------------------------------------
-The control icons are from a custom font. Each icon corresponds to a character
-(e.g. "\e001"). Font icons allow for easy scaling and coloring of icons.
-*/
-@font-face {
-  font-family: 'VideoJS';
-  src: url("../fonts/video-js/vjs.eot");
-  src: url("../fonts/video-js/vjs.eot?#iefix") format("embedded-opentype"), url("../fonts/video-js/vjs.woff") format("woff"), url("../fonts/video-js/vjs.ttf") format("truetype"), url("../fonts/video-js/vjs.svg#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-.js-cara-order {
-  display: none; }
-
-/* Custom Heading
--------------------------------------------------- */
-.h2--in-content {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 26px; }
-
-/* Fix Videojs Youtube
--------------------------------------------------- */
-#malescast-video > div:first-child {
-  position: initial !important; }
 
 /*# sourceMappingURL=app.css.map */

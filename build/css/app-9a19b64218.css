@@ -7166,9 +7166,6 @@ body {
   @media (max-width: 992px) {
     body {
       margin-bottom: 200px; } }
-  @media (max-width: 768px) {
-    body {
-      margin-bottom: 260px; } }
 
 footer {
   padding-top: 40px;
@@ -7220,8 +7217,7 @@ form.datatable--hover-action > input[type="submit"] {
   text-align: center; }
   @media (max-width: 768px) {
     .headline__content, .headline__content--course, .headline__content--course-view, .headline__content--view-screencast {
-      padding-top: 2em;
-      padding-bottom: 6em; } }
+      padding-top: 2em; } }
   .headline__content hr, .headline__content--course hr, .headline__content--course-view hr, .headline__content--view-screencast hr {
     margin-left: auto;
     margin-right: auto;
@@ -7271,9 +7267,6 @@ form.datatable--hover-action > input[type="submit"] {
   font-size: 2.5em;
   margin-top: 70px;
   text-align: center; }
-  @media (max-width: 768px) {
-    .group-title {
-      font-size: 2em; } }
 
 .group-title__hr {
   margin-left: auto;
