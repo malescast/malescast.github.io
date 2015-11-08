@@ -7198,13 +7198,13 @@ form.datatable--hover-action > input[type="submit"] {
 .headline, .headline--view-screencast, .headline--course {
   background-size: cover;
   color: white;
-  margin-top: -1.4em; }
+  margin-top: -0.8em; }
 
 .headline--view-screencast {
   background-color: black; }
 
 .headline--course {
-  margin-top: -1.5em;
+  margin-top: -0.9em;
   margin-bottom: 4em;
   color: white; }
 
