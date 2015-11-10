@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://malescast.github.io/screencast/laravel-model-factory/</loc>
+    <lastmod>2015-11-10T15:25:55.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://malescast.github.io/Eksis-dengan-HexoJS/post-draft-dan-page/</loc>
     <lastmod>2015-11-09T13:56:15.000Z</lastmod>
   </url>
