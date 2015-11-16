@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://malescast.github.io/screencast/bower-buat-frontend-developer/</loc>
+    <lastmod>2015-11-16T05:58:29.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://malescast.github.io/MalesTips/malestips-03-code-snippet/</loc>
     <lastmod>2015-11-16T02:44:44.000Z</lastmod>
   </url>
