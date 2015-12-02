@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://malescast.github.io/VueJS-Fast-Track/02-instalasi-dan-setup-vuejs/</loc>
+    <lastmod>2015-12-01T10:05:39.000Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://malescast.github.io/VueJS-Fast-Track/01-persiapan-project-vuejs/</loc>
+    <lastmod>2015-12-01T10:05:33.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://malescast.github.io/Teknik-PHP-Modern/dependency-management-dengan-composer/</loc>
     <lastmod>2015-12-01T00:48:55.000Z</lastmod>
   </url>
