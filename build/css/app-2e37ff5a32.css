@@ -7538,6 +7538,6 @@ The control icons are from a custom font. Each icon corresponds to a character
   text-shadow: 0 0 1em #fff; }
 
 .blink {
-  text-decoration: blink !important; }
+  text-decoration: blink; }
 
 /*# sourceMappingURL=app.css.map */
