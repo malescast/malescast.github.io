@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://malescast.com/VueJS-Fast-Track/09-edit-form/</loc>
+    <lastmod>2015-12-09T00:40:01.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://malescast.com/VueJS-Fast-Track/08-upvote-dan-downvote/</loc>
     <lastmod>2015-12-07T01:18:51.000Z</lastmod>
   </url>
