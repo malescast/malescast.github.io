@@ -1,0 +1,282 @@
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title><![CDATA[MalesCast]]></title>
+    <link>https://malescast.com/</link>
+    <atom:link href="https://malescast.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <description><![CDATA[Screencast Web Development. Buat programmer males.]]></description>
+    <pubDate>Wed, 09 Dec 2015 00:40:01 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title><![CDATA[Edit Form]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/09-edit-form/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/09-edit-form/</guid>
+      <pubDate>Wed, 09 Dec 2015 00:36:51 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Untuk mengedit resource, kita dapat menggunakan fitur binding ke form. Sehingga data yang sudah ada akan muncul di form.</p>
+<p>Mau dapet]]>
+      </description>
+      <content:encoded><![CDATA[<p>Untuk mengedit resource, kita dapat menggunakan fitur binding ke form. Sehingga data yang sudah ada akan muncul di form.</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/09-edit-form/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Upvote dan Downvote]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/08-upvote-dan-downvote/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/08-upvote-dan-downvote/</guid>
+      <pubDate>Mon, 07 Dec 2015 01:16:59 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Ini fitur yang penting dari aplikasi yang sedang kita bangun. Disini, kita akan belajar membuat upvote dan downvote dari link yang sudah ]]>
+      </description>
+      <content:encoded><![CDATA[<p>Ini fitur yang penting dari aplikasi yang sedang kita bangun. Disini, kita akan belajar membuat upvote dan downvote dari link yang sudah kita kirim.</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/08-upvote-dan-downvote/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Menghapus Resource]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/07-menghapus-resource/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/07-menghapus-resource/</guid>
+      <pubDate>Sun, 06 Dec 2015 09:06:20 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Mari kita belajar menghapus resource yang sudah kita buat dengan VueJS. Salah satu tekniknya, kita dapat menggunakan helper <em>$remove</]]>
+      </description>
+      <content:encoded><![CDATA[<p>Mari kita belajar menghapus resource yang sudah kita buat dengan VueJS. Salah satu tekniknya, kita dapat menggunakan helper <em>$remove</em>.</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/07-menghapus-resource/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Bekerja dengan Form]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/06-bekerja-dengan-form/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/06-bekerja-dengan-form/</guid>
+      <pubDate>Sat, 05 Dec 2015 04:21:24 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Menggunakan teknik data binding, kita dapat mengisi dan menyimpan data form dengan mudah. Mari kita pelajar!</p>
+<p>Mau dapet info video ]]>
+      </description>
+      <content:encoded><![CDATA[<p>Menggunakan teknik data binding, kita dapat mengisi dan menyimpan data form dengan mudah. Mari kita pelajar!</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/06-bekerja-dengan-form/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Listing Data]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/05-listing-data/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/05-listing-data/</guid>
+      <pubDate>Fri, 04 Dec 2015 04:11:15 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Mari kita belajar menggunakan directive <em>v-for</em> untuk menampilkan listing data.</p>
+<p>Mau dapet info video terbaru? Masukin email]]>
+      </description>
+      <content:encoded><![CDATA[<p>Mari kita belajar menggunakan directive <em>v-for</em> untuk menampilkan listing data.</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/05-listing-data/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Directive dan Methods]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/04-directive-dan-methods/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/04-directive-dan-methods/</guid>
+      <pubDate>Thu, 03 Dec 2015 01:04:04 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Di VueJS kita dapat menggunakan directive untuk menambahkan <em>behaviour</em> pada sebuah elemen html. Di screencast ini, kita juga akan]]>
+      </description>
+      <content:encoded><![CDATA[<p>Di VueJS kita dapat menggunakan directive untuk menambahkan <em>behaviour</em> pada sebuah elemen html. Di screencast ini, kita juga akan belajar bagaimana menambah method pada aplikasi VueJS.</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/04-directive-dan-methods/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Data Binding]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/03-data-binding/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/03-data-binding/</guid>
+      <pubDate>Wed, 02 Dec 2015 02:59:19 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Data Binding adalah fitur penting di sebuah framework JS. Mari kita pelajari bagaimana menggunakaan data binding di VueJS.</p>
+<p>Mau dap]]>
+      </description>
+      <content:encoded><![CDATA[<p>Data Binding adalah fitur penting di sebuah framework JS. Mari kita pelajari bagaimana menggunakaan data binding di VueJS.</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/03-data-binding/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Instalasi dan Setup VueJS]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/02-instalasi-dan-setup-vuejs/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/02-instalasi-dan-setup-vuejs/</guid>
+      <pubDate>Wed, 02 Dec 2015 01:45:15 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Instalasi vuejs akan lebih mudah pakai bower. Kalau belum paham tentang bower, silahkan tonton dulu screencast tentang <a href="https://m]]>
+      </description>
+      <content:encoded><![CDATA[<p>Instalasi vuejs akan lebih mudah pakai bower. Kalau belum paham tentang bower, silahkan tonton dulu screencast tentang <a href="https://malescast.com/screencast/bower-buat-frontend-developer">bower</a>.</p>
+<p>Mau dapet info screencast terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/02-instalasi-dan-setup-vuejs/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Persiapan Project VueJS]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/01-persiapan-project-vuejs/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/01-persiapan-project-vuejs/</guid>
+      <pubDate>Wed, 02 Dec 2015 00:45:15 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Sebelum kita mulai project dengan VueJS, mari kita bahas dulu apa yang kita buat dalam course ini.</p>
+<p>Mau dapet info screencast terba]]>
+      </description>
+      <content:encoded><![CDATA[<p>Sebelum kita mulai project dengan VueJS, mari kita bahas dulu apa yang kita buat dalam course ini.</p>
+<p>Mau dapet info screencast terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/01-persiapan-project-vuejs/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Dependency Management dengan Composer]]></title>
+      <link>https://malescast.com/Teknik-PHP-Modern/dependency-management-dengan-composer/</link>
+      <guid>https://malescast.com/Teknik-PHP-Modern/dependency-management-dengan-composer/</guid>
+      <pubDate>Tue, 01 Dec 2015 00:23:20 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Menguasai composer, merupakan salah satu ilmu yang wajib dikuasai oleh developer PHP masa kini. Apa itu composer? Gimana cara pakainya? Y]]>
+      </description>
+      <content:encoded><![CDATA[<p>Menguasai composer, merupakan salah satu ilmu yang wajib dikuasai oleh developer PHP masa kini. Apa itu composer? Gimana cara pakainya? Yuk kita pelajari.. :)</p>
+<p>Mau dapet info video terbaru seputar PHP? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/Teknik-PHP-Modern/dependency-management-dengan-composer/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Intro]]></title>
+      <link>https://malescast.com/Yuk-Bikin-Package-di-Laravel/intro-laravel-package-dev/</link>
+      <guid>https://malescast.com/Yuk-Bikin-Package-di-Laravel/intro-laravel-package-dev/</guid>
+      <pubDate>Thu, 19 Nov 2015 15:11:13 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Hari gini belum pernah bikin package Laravel?<br>Bro, bikin package di Laravel 5 itu gampang pake banget. Ngga percaya? Tonton deh screen]]>
+      </description>
+      <content:encoded><![CDATA[<p>Hari gini belum pernah bikin package Laravel?<br>Bro, bikin package di Laravel 5 itu gampang pake banget. Ngga percaya? Tonton deh screencast ini..</p>
+<p><br>    <a class="gumroad-button" href="http://gum.co/intro-laravel-package-dev" target="_blank">Download HD (Free)</a><br></p>
+]]></content:encoded>
+      <comments>https://malescast.com/Yuk-Bikin-Package-di-Laravel/intro-laravel-package-dev/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Bower buat Frontend Developer]]></title>
+      <link>https://malescast.com/screencast/bower-buat-frontend-developer/</link>
+      <guid>https://malescast.com/screencast/bower-buat-frontend-developer/</guid>
+      <pubDate>Mon, 16 Nov 2015 05:54:54 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Bower adalah salah satu tools wajib ketika kita hendak bekerja dengan frontend. Menggunakan bower, proses install dan update library akan]]>
+      </description>
+      <content:encoded><![CDATA[<p>Bower adalah salah satu tools wajib ketika kita hendak bekerja dengan frontend. Menggunakan bower, proses install dan update library akan lebih mudah dan cepat!</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/screencast/bower-buat-frontend-developer/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[MalesTips #3: Code Snippet]]></title>
+      <link>https://malescast.com/MalesTips/malestips-03-code-snippet/</link>
+      <guid>https://malescast.com/MalesTips/malestips-03-code-snippet/</guid>
+      <pubDate>Mon, 16 Nov 2015 01:54:10 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Salah satu mukjizat dalam coding adalah adanya fitur code snippet dalam text editor. Buat developer males (seperti saya), menggunakan fit]]>
+      </description>
+      <content:encoded><![CDATA[<p>Salah satu mukjizat dalam coding adalah adanya fitur code snippet dalam text editor. Buat developer males (seperti saya), menggunakan fitur ini ketika coding sangat bermanfaat. Pernah coba?</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/MalesTips/malestips-03-code-snippet/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Laravel Model Factory]]></title>
+      <link>https://malescast.com/screencast/laravel-model-factory/</link>
+      <guid>https://malescast.com/screencast/laravel-model-factory/</guid>
+      <pubDate>Tue, 10 Nov 2015 15:01:00 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Model Factory di Laravel sangat bermanfaat dalam untuk membuat sample data. Biasanya digunakan dalam testing. Tapi, kita juga dapat meman]]>
+      </description>
+      <content:encoded><![CDATA[<p>Model Factory di Laravel sangat bermanfaat dalam untuk membuat sample data. Biasanya digunakan dalam testing. Tapi, kita juga dapat memanfaatkannya untuk melakukan seeding database. Mari kita pelajari!</p>
+<p><br>    <a class="gumroad-button" href="http://gum.co/laravel-model-factory" target="_blank">Download HD (Free)</a><br></p>
+]]></content:encoded>
+      <comments>https://malescast.com/screencast/laravel-model-factory/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Menggunakan Post, Draft dan Page]]></title>
+      <link>https://malescast.com/Eksis-dengan-HexoJS/post-draft-dan-page/</link>
+      <guid>https://malescast.com/Eksis-dengan-HexoJS/post-draft-dan-page/</guid>
+      <pubDate>Mon, 09 Nov 2015 13:53:41 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Konten di HexoJS terbagi 3 yaitu Post, Draft dan Page. Mari kita pelajari ketiganya.</p>
+]]>
+      </description>
+      <content:encoded><![CDATA[<p>Konten di HexoJS terbagi 3 yaitu Post, Draft dan Page. Mari kita pelajari ketiganya.</p>
+]]></content:encoded>
+      <comments>https://malescast.com/Eksis-dengan-HexoJS/post-draft-dan-page/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[Instalasi HexoJS]]></title>
+      <link>https://malescast.com/Eksis-dengan-HexoJS/instalasi-hexojs/</link>
+      <guid>https://malescast.com/Eksis-dengan-HexoJS/instalasi-hexojs/</guid>
+      <pubDate>Mon, 09 Nov 2015 13:44:27 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Kita membutuhkan npm untuk menginstall HexoJS. Yuk, kita coba.</p>
+]]>
+      </description>
+      <content:encoded><![CDATA[<p>Kita membutuhkan npm untuk menginstall HexoJS. Yuk, kita coba.</p>
+]]></content:encoded>
+      <comments>https://malescast.com/Eksis-dengan-HexoJS/instalasi-hexojs/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[MalesTips #2: Coding dengan Cepat]]></title>
+      <link>https://malescast.com/MalesTips/malestips-02-coding-dengan-cepat/</link>
+      <guid>https://malescast.com/MalesTips/malestips-02-coding-dengan-cepat/</guid>
+      <pubDate>Sun, 08 Nov 2015 14:13:48 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Tips kali ini kita akan belajar beberapa teknik yang bisa digunakan agar coding makin cepat.</p>
+]]>
+      </description>
+      <content:encoded><![CDATA[<p>Tips kali ini kita akan belajar beberapa teknik yang bisa digunakan agar coding makin cepat.</p>
+]]></content:encoded>
+      <comments>https://malescast.com/MalesTips/malestips-02-coding-dengan-cepat/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title><![CDATA[MalesTips #1: Sublime, Laravel 5, Namespace, Autocomplete]]></title>
+      <link>https://malescast.com/MalesTips/malestips-01-sublime-laravel-5-namespace-autocomplete/</link>
+      <guid>https://malescast.com/MalesTips/malestips-01-sublime-laravel-5-namespace-autocomplete/</guid>
+      <pubDate>Sun, 08 Nov 2015 12:54:09 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Di MalesTips #1 ini kita akan belajar mengaktifkan autocomplete untuk namespace dan method Laravel di Sublime Text.</p>
+]]>
+      </description>
+      <content:encoded><![CDATA[<p>Di MalesTips #1 ini kita akan belajar mengaktifkan autocomplete untuk namespace dan method Laravel di Sublime Text.</p>
+]]></content:encoded>
+      <comments>https://malescast.com/MalesTips/malestips-01-sublime-laravel-5-namespace-autocomplete/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
