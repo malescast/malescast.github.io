@@ -6,8 +6,23 @@
     <link>https://malescast.com/</link>
     <atom:link href="https://malescast.com/rss.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[Screencast Web Development. Buat programmer males.]]></description>
-    <pubDate>Wed, 09 Dec 2015 00:40:01 GMT</pubDate>
+    <pubDate>Thu, 10 Dec 2015 01:35:28 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title><![CDATA[Struktur class dengan Namespace]]></title>
+      <link>https://malescast.com/Teknik-PHP-Modern/struktur-class-dengan-namespace/</link>
+      <guid>https://malescast.com/Teknik-PHP-Modern/struktur-class-dengan-namespace/</guid>
+      <pubDate>Thu, 10 Dec 2015 01:26:38 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Fitur namespace di PHP akan sangat bermanfaat ketika aplikasi yang kita bangun memiliki banyak library. Dari struktur file hingga duplika]]>
+      </description>
+      <content:encoded><![CDATA[<p>Fitur namespace di PHP akan sangat bermanfaat ketika aplikasi yang kita bangun memiliki banyak library. Dari struktur file hingga duplikasi nama class dapat diselesaikan dengan penggunaan namespace.</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/Teknik-PHP-Modern/struktur-class-dengan-namespace/#disqus_thread</comments>
+    </item>
     
     <item>
       <title><![CDATA[Edit Form]]></title>
