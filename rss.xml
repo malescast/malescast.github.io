@@ -6,8 +6,23 @@
     <link>https://malescast.com/</link>
     <atom:link href="https://malescast.com/rss.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[Screencast Web Development. Buat programmer males.]]></description>
-    <pubDate>Thu, 10 Dec 2015 01:35:28 GMT</pubDate>
+    <pubDate>Fri, 11 Dec 2015 01:31:19 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title><![CDATA[Penggunaan Filter]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/10-penggunaan-filter/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/10-penggunaan-filter/</guid>
+      <pubDate>Fri, 11 Dec 2015 01:28:42 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Menggunakan filter kita dapat merubah tampilan data di view. Selain menggunakan filter bawaan, kita juga bisa menggunakan <em>third party]]>
+      </description>
+      <content:encoded><![CDATA[<p>Menggunakan filter kita dapat merubah tampilan data di view. Selain menggunakan filter bawaan, kita juga bisa menggunakan <em>third party</em> filter. Mari kita pelajari!</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/10-penggunaan-filter/#disqus_thread</comments>
+    </item>
     
     <item>
       <title><![CDATA[Struktur class dengan Namespace]]></title>
