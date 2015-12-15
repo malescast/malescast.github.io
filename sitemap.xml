@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://malescast.com/VueJS-Fast-Track/11-mengurutkan-data/</loc>
+    <lastmod>2015-12-15T02:10:15.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://malescast.com/VueJS-Fast-Track/10-penggunaan-filter/</loc>
     <lastmod>2015-12-11T01:31:19.000Z</lastmod>
   </url>

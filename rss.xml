@@ -6,8 +6,24 @@
     <link>https://malescast.com/</link>
     <atom:link href="https://malescast.com/rss.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[Screencast Web Development. Buat programmer males.]]></description>
-    <pubDate>Fri, 11 Dec 2015 01:31:19 GMT</pubDate>
+    <pubDate>Tue, 15 Dec 2015 02:10:15 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title><![CDATA[Mengurutkan Data]]></title>
+      <link>https://malescast.com/VueJS-Fast-Track/11-mengurutkan-data/</link>
+      <guid>https://malescast.com/VueJS-Fast-Track/11-mengurutkan-data/</guid>
+      <pubDate>Tue, 15 Dec 2015 02:06:41 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Untuk mengurutkan list di VueJS, kita dapat menggunakan filder orderBy. Mari kita pelajari.. :)</p>
+<p>Mau dapet info video terbaru? Masu]]>
+      </description>
+      <content:encoded><![CDATA[<p>Untuk mengurutkan list di VueJS, kita dapat menggunakan filder orderBy. Mari kita pelajari.. :)</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/VueJS-Fast-Track/11-mengurutkan-data/#disqus_thread</comments>
+    </item>
     
     <item>
       <title><![CDATA[Penggunaan Filter]]></title>
@@ -292,20 +308,6 @@
       <content:encoded><![CDATA[<p>Tips kali ini kita akan belajar beberapa teknik yang bisa digunakan agar coding makin cepat.</p>
 ]]></content:encoded>
       <comments>https://malescast.com/MalesTips/malestips-02-coding-dengan-cepat/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title><![CDATA[MalesTips #1: Sublime, Laravel 5, Namespace, Autocomplete]]></title>
-      <link>https://malescast.com/MalesTips/malestips-01-sublime-laravel-5-namespace-autocomplete/</link>
-      <guid>https://malescast.com/MalesTips/malestips-01-sublime-laravel-5-namespace-autocomplete/</guid>
-      <pubDate>Sun, 08 Nov 2015 12:54:09 GMT</pubDate>
-      <description>
-      <![CDATA[<p>Di MalesTips #1 ini kita akan belajar mengaktifkan autocomplete untuk namespace dan method Laravel di Sublime Text.</p>
-]]>
-      </description>
-      <content:encoded><![CDATA[<p>Di MalesTips #1 ini kita akan belajar mengaktifkan autocomplete untuk namespace dan method Laravel di Sublime Text.</p>
-]]></content:encoded>
-      <comments>https://malescast.com/MalesTips/malestips-01-sublime-laravel-5-namespace-autocomplete/#disqus_thread</comments>
     </item>
     
   </channel>
