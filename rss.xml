@@ -6,8 +6,23 @@
     <link>https://malescast.com/</link>
     <atom:link href="https://malescast.com/rss.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[Screencast Web Development. Buat programmer males.]]></description>
-    <pubDate>Tue, 15 Dec 2015 02:12:28 GMT</pubDate>
+    <pubDate>Wed, 16 Dec 2015 01:13:06 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title><![CDATA[Memahami Autoload]]></title>
+      <link>https://malescast.com/Teknik-PHP-Modern/php-autoload/</link>
+      <guid>https://malescast.com/Teknik-PHP-Modern/php-autoload/</guid>
+      <pubDate>Wed, 16 Dec 2015 00:49:13 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Memahami penggunaan autoload merupakan hal esensial ketika kita hendak coding PHP yang lebih kekinian. Apa itu Autoloading? Bagaimana man]]>
+      </description>
+      <content:encoded><![CDATA[<p>Memahami penggunaan autoload merupakan hal esensial ketika kita hendak coding PHP yang lebih kekinian. Apa itu Autoloading? Bagaimana manfaatnya? Yuk kita pelajari!</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/Teknik-PHP-Modern/php-autoload/#disqus_thread</comments>
+    </item>
     
     <item>
       <title><![CDATA[Mengurutkan Data]]></title>
@@ -294,20 +309,6 @@
       <content:encoded><![CDATA[<p>Kita membutuhkan npm untuk menginstall HexoJS. Yuk, kita coba.</p>
 ]]></content:encoded>
       <comments>https://malescast.com/Eksis-dengan-HexoJS/instalasi-hexojs/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title><![CDATA[MalesTips #2: Coding dengan Cepat]]></title>
-      <link>https://malescast.com/MalesTips/malestips-02-coding-dengan-cepat/</link>
-      <guid>https://malescast.com/MalesTips/malestips-02-coding-dengan-cepat/</guid>
-      <pubDate>Sun, 08 Nov 2015 14:13:48 GMT</pubDate>
-      <description>
-      <![CDATA[<p>Tips kali ini kita akan belajar beberapa teknik yang bisa digunakan agar coding makin cepat.</p>
-]]>
-      </description>
-      <content:encoded><![CDATA[<p>Tips kali ini kita akan belajar beberapa teknik yang bisa digunakan agar coding makin cepat.</p>
-]]></content:encoded>
-      <comments>https://malescast.com/MalesTips/malestips-02-coding-dengan-cepat/#disqus_thread</comments>
     </item>
     
   </channel>

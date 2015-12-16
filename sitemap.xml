@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://malescast.com/Teknik-PHP-Modern/php-autoload/</loc>
+    <lastmod>2015-12-16T01:13:06.000Z</lastmod>
+  </url>
+  
+  <url>
     <loc>https://malescast.com/VueJS-Fast-Track/11-mengurutkan-data/</loc>
     <lastmod>2015-12-15T02:12:28.000Z</lastmod>
   </url>
