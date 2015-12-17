@@ -17,25 +17,23 @@
 
   
 
-  <title>Mengurutkan Data - MalesCast</title>
-  <meta name="description" content="Untuk mengurutkan list di VueJS, kita dapat menggunakan filder orderBy. Mari kita pelajari.. :)
-M...">
+  <title>Closure Dan Anonymous Function - MalesCast</title>
+  <meta name="description" content="Di PHP kita dapat membuat sebuah fungsi tanpa nama yang akan bermanfaat ketika kita membutuhkan c...">
   <link rel="icon" href="/img/favicon.ico" type="images/x-icon"/>
 
   <!-- build:css -->
   <link rel="stylesheet" href="/build/css/app-a95c19b263.css" type="text/css">
   <!-- endbuild -->
 
-  <meta property="og:title" content="Mengurutkan Data - MalesCast" />
+  <meta property="og:title" content="Closure Dan Anonymous Function - MalesCast" />
   <meta property="og:site_name" content="MalesCast"/>
-  <meta property="og:url" content="https://malescast.com/VueJS-Fast-Track/11-mengurutkan-data/" />
-  <meta property="og:description" content="Untuk mengurutkan list di VueJS, kita dapat menggunakan filder orderBy. Mari kita pelajari.. :)
-M..." />
+  <meta property="og:url" content="https://malescast.com/Teknik-PHP-Modern/closure-dan-anonymous-function-di-php/" />
+  <meta property="og:description" content="Di PHP kita dapat membuat sebuah fungsi tanpa nama yang akan bermanfaat ketika kita membutuhkan c..." />
   <meta property="og:type" content="article" />
   <meta property="og:locale" content="id_ID" />
   <meta property="article:author" content="https://www.facebook.com/rahmat.awaludin" />
   <meta property="article:publisher" content="https://www.facebook.com/malescast" />
-  <meta property="og:image" content="https://malescast.com/img/poster/11-mengurutkan-data-cb019711.jpg" />
+  <meta property="og:image" content="https://malescast.com/img/poster/closure-dan-anonymous-function-di-php-608bfe7f.jpg" />
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -134,53 +132,14 @@ M..." />
     <div class="container">
       <div class="video-holder">
   
-    <div class="sign-up-video-substitute" style="background: url(/img/purchase-poster.jpg) 50% no-repeat #080808;background-size: contain;padding: 18% 0;">
-
-        <h3>Mau akses video ini?</h3>
-        <p>Sip, tinggal order aja. Caranya:</p>
-        <p class="js-cara-order-udah-tampil">
-          <button class="btn btn-xs btn-info js-tampilkan-cara-order">Tampilkan Cara Order</button>
-        </p>
-
-        <p class="js-cara-order">Anda dapat mengorder course "VueJS Fast Track" untuk mengakses video ini.</p>
-        <div class="row text-left js-cara-order">
-          <div class="col-sm-4 col-sm-offset-2">
-            <h4>Via Kartu Kredit / Paypal</h4>
-            <ol style="padding-left: 22px;">
-  <li>Klik tombol "Beli Sekarang"</li>
-  <li>Masukan harga yang dikehendaki pada isian "Name a fair price". Minimumnya $3, boleh lebih.. :)</li>
-  <li>Klik "I want this!"</li>
-  <li>Masukan email dan metode pembayaran</li>
-  <li>Klik "Pay"</li>
-  <li>Cek Email</li>
-</ol>
-<small>PS: Setelah selesai download, pastikan bisa login ke Gumroad buat download videonya kapanpun.</small>
-<br>
-<p class="text-center spacer"><a class="gumroad-button" href="https://gum.co/vuejs-fast-track" target="_blank">Beli Sekarang</a></p>
-<script src="https://gumroad.com/js/gumroad.js"></script>
-
-          </div>
-          <div class="col-sm-4">
-            <h4>Via Transfer Bank</h4>
-            <ol style="padding-left: 22px;">
-   <li>Transfer senilai minimum Rp35,000 ke BNI 0186355188 an Rahmat Awaludin. Boleh dilebihin.. :) </li>
-   <li>Konfirmasi ke +6287822250272 (SMS/WA)</li>
-   <li>Nanti saya kirim link downloadnya.</li>
-</ol>
-<small>PS: Jika mau video dikirim pakai DVD, silahkan tambah Rp50,000 + ongkos kirim.</small>
-
-          </div>
-        </div>
-        <div class="row js-cara-order spacer">
-          <div class="col-sm-8 col-sm-offset-2">
-              <p >P.S: Dengan mengorder video ini, berarti Anda telah mensupport saya untuk membuat screencast-screencast selanjutnya. Terimakasih.. :)</p>
-              <p class="js-cara-order">Info lebih lanjut, baca <a href="/faq">FAQ</a>.</p>
-          </div>
-        </div>
-
-
-
-      </div>
+    <video
+      id="malescast-video"
+      poster="/img/poster/closure-dan-anonymous-function-di-php-608bfe7f.jpg"
+      class="video-js vjs-default-skin vjs-big-play-centered"
+      controls preload="auto" width="640" height="360"
+      data-setup='{ "techOrder": ["youtube"], "aspectRatio":"16:10", "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=Nh7HQbkPYWc"}], "Youtube": { "ytControls": 2 }}'
+       style="margin:auto;">
+    </video>
   
 </div>
 
@@ -192,13 +151,15 @@ M..." />
   <div class="row">
     <div class="col-md-9 video-description__body">
 
-        <h1 class="video-description__course">Course: <a href="/course/VueJS-Fast-Track/">VueJS Fast Track</a></h1>
+        <h1 class="video-description__course">Course: <a href="/course/Teknik-PHP-Modern/">Teknik PHP Modern</a></h1>
 
-        <h1 class="video-description__title">Mengurutkan Data
+        <h1 class="video-description__title">Closure dan Anonymous Function
+        
+          <small><span class="label label-success item__free">free</span></small>
         
         </h1>
 
-        <p>Untuk mengurutkan list di VueJS, kita dapat menggunakan filder orderBy. Mari kita pelajari.. :)</p>
+        <p>Di PHP kita dapat membuat sebuah fungsi tanpa nama yang akan bermanfaat ketika kita membutuhkan callback sebagai parameter di sebuah fungsi. Yuk kita pelajari!</p>
 <p>Mau dapet info video terbaru? Masukin email kamu!</p>
 <form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
 
@@ -247,28 +208,68 @@ M..." />
               
                   
                       
-                  
-
-              
-                  
-                      
                           <tr>
   <td class="text-center" width="36px">1</td>
   <td>
     <a href="
-          /VueJS-Fast-Track/01-persiapan-project-vuejs/
+          /Teknik-PHP-Modern/dependency-management-dengan-composer/
       ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Persiapan Project VueJS</a>
+    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Dependency Management dengan Composer</a>
       
           <span class="label label-success item__free">free</span>
       
   </td>
   <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:01:18
+    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:12:48
   </td>
 </tr>
 
                           
+                      
+                  
+
+              
+                  
+                      
+                  
+
+              
+                  
+                      
+                  
+
+              
+                  
+                      
+                  
+
+              
+                  
+                      
+                  
+
+              
+                  
+                      
+                  
+
+              
+                  
+                      
+                  
+
+              
+                  
+                      
+                  
+
+              
+                  
+                      
+                  
+
+              
+                  
                       
                   
 
@@ -279,19 +280,29 @@ M..." />
   <td class="text-center" width="36px">2</td>
   <td>
     <a href="
-          /VueJS-Fast-Track/02-instalasi-dan-setup-vuejs/
+          /Teknik-PHP-Modern/struktur-class-dengan-namespace/
       ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Instalasi dan Setup VueJS</a>
+    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Struktur class dengan Namespace</a>
       
           <span class="label label-success item__free">free</span>
       
   </td>
   <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:04:52
+    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:05:31
   </td>
 </tr>
 
                           
+                      
+                  
+
+              
+                  
+                      
+                  
+
+              
+                  
                       
                   
 
@@ -302,19 +313,24 @@ M..." />
   <td class="text-center" width="36px">3</td>
   <td>
     <a href="
-          /VueJS-Fast-Track/03-data-binding/
+          /Teknik-PHP-Modern/php-autoload/
       ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Data Binding</a>
+    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Memahami Autoload</a>
       
           <span class="label label-success item__free">free</span>
       
   </td>
   <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:05:12
+    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:05:33
   </td>
 </tr>
 
                           
+                      
+                  
+
+              
+                  
                       
                   
 
@@ -325,210 +341,19 @@ M..." />
   <td class="text-center" width="36px">4</td>
   <td>
     <a href="
-          /VueJS-Fast-Track/04-directive-dan-methods/
+          /Teknik-PHP-Modern/closure-dan-anonymous-function-di-php/
       ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Directive dan Methods</a>
+    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Closure dan Anonymous Function</a>
       
           <span class="label label-success item__free">free</span>
       
   </td>
   <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:04:48
+    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:04:29
   </td>
 </tr>
 
                           
-                      
-                  
-
-              
-                  
-                      
-                          <tr>
-  <td class="text-center" width="36px">5</td>
-  <td>
-    <a href="
-          /VueJS-Fast-Track/05-listing-data/
-      ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Listing Data</a>
-      
-          <span class="label label-success item__free">free</span>
-      
-  </td>
-  <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:02:28
-  </td>
-</tr>
-
-                          
-                      
-                  
-
-              
-                  
-                      
-                          <tr>
-  <td class="text-center" width="36px">6</td>
-  <td>
-    <a href="
-          /VueJS-Fast-Track/06-bekerja-dengan-form/
-      ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Bekerja dengan Form</a>
-      
-          <span class="label label-success item__free">free</span>
-      
-  </td>
-  <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:02:24
-  </td>
-</tr>
-
-                          
-                      
-                  
-
-              
-                  
-                      
-                          <tr>
-  <td class="text-center" width="36px">7</td>
-  <td>
-    <a href="
-          /VueJS-Fast-Track/07-menghapus-resource/
-      ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Menghapus Resource</a>
-      
-          <span class="label label-success item__free">free</span>
-      
-  </td>
-  <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:01:46
-  </td>
-</tr>
-
-                          
-                      
-                  
-
-              
-                  
-                      
-                          <tr>
-  <td class="text-center" width="36px">8</td>
-  <td>
-    <a href="
-          /VueJS-Fast-Track/08-upvote-dan-downvote/
-      ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Upvote dan Downvote</a>
-      
-          <span class="label label-success item__free">free</span>
-      
-  </td>
-  <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:02:19
-  </td>
-</tr>
-
-                          
-                      
-                  
-
-              
-                  
-                      
-                          <tr>
-  <td class="text-center" width="36px">9</td>
-  <td>
-    <a href="
-          /VueJS-Fast-Track/09-edit-form/
-      ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Edit Form</a>
-      
-  </td>
-  <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:02:14
-  </td>
-</tr>
-
-                          
-                      
-                  
-
-              
-                  
-                      
-                  
-
-              
-                  
-                      
-                          <tr>
-  <td class="text-center" width="36px">10</td>
-  <td>
-    <a href="
-          /VueJS-Fast-Track/10-penggunaan-filter/
-      ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Penggunaan Filter</a>
-      
-  </td>
-  <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:02:14
-  </td>
-</tr>
-
-                          
-                      
-                  
-
-              
-                  
-                      
-                          <tr>
-  <td class="text-center" width="36px">11</td>
-  <td>
-    <a href="
-          /VueJS-Fast-Track/11-mengurutkan-data/
-      ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Mengurutkan Data</a>
-      
-  </td>
-  <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:04:25
-  </td>
-</tr>
-
-                          
-                      
-                  
-
-              
-                  
-                      
-                  
-
-              
-                  
-                      
-                          <tr>
-  <td class="text-center" width="36px">12</td>
-  <td>
-    <a href="
-          /VueJS-Fast-Track/12-dynamic-class/
-      ">
-    <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span> Dynamic Class</a>
-      
-  </td>
-  <td>
-    <span class="glyphicon glyphicon-time" aria-hidden="true"></span> 00:01:40
-  </td>
-</tr>
-
-                          
-                      
-                  
-
-              
-                  
                       
                   
 
@@ -537,6 +362,8 @@ M..." />
           </table>
         
 
+        
+          <div class="alert alert-info" role="alert">Course ini sedang dalam proses pembuatan, sering-sering mengunjungi halaman ini untuk mengecek video terbaru.</div>
         
 
         
@@ -573,18 +400,18 @@ s.setAttribute('data-timestamp', +new Date());
         <tbody>
           <tr>
   <td><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> Published</td>
-  <td>15 Dec 2015</td>
+  <td>18 Dec 2015</td>
 </tr>
 <tr>
   <td><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Technology</td>
   <td>
       
     
-            <a href="/topic/javascript/" class="blink">
-                <span class="label label-info">Javascript</span>
-            </a>
-    
 
+    
+            <a href="/topic/php/" class="blink">
+                <span class="label label-info">PHP</span>
+            </a>
     
 
     
@@ -594,13 +421,13 @@ s.setAttribute('data-timestamp', +new Date());
 </tr>
 <tr>
   <td><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Duration</td>
-  <td>00:04:25</td>
+  <td>00:04:29</td>
 </tr>
 <tr>
   <td><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Level</td>
   <td>
-    <a href="/topic/level-beginner" class="blink">
-      <span class="detail-level detail-level--beginner">beginner</span>
+    <a href="/topic/level-intermediate" class="blink">
+      <span class="detail-level detail-level--intermediate">intermediate</span>
     </a>
   </td>
 </tr>

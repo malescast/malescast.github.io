@@ -6,8 +6,23 @@
     <link>https://malescast.com/</link>
     <atom:link href="https://malescast.com/rss.xml" rel="self" type="application/rss+xml"/>
     <description><![CDATA[Screencast Web Development. Buat programmer males.]]></description>
-    <pubDate>Thu, 17 Dec 2015 01:24:26 GMT</pubDate>
+    <pubDate>Thu, 17 Dec 2015 23:11:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title><![CDATA[Closure dan Anonymous Function]]></title>
+      <link>https://malescast.com/Teknik-PHP-Modern/closure-dan-anonymous-function-di-php/</link>
+      <guid>https://malescast.com/Teknik-PHP-Modern/closure-dan-anonymous-function-di-php/</guid>
+      <pubDate>Thu, 17 Dec 2015 23:08:39 GMT</pubDate>
+      <description>
+      <![CDATA[<p>Di PHP kita dapat membuat sebuah fungsi tanpa nama yang akan bermanfaat ketika kita membutuhkan callback sebagai parameter di sebuah fung]]>
+      </description>
+      <content:encoded><![CDATA[<p>Di PHP kita dapat membuat sebuah fungsi tanpa nama yang akan bermanfaat ketika kita membutuhkan callback sebagai parameter di sebuah fungsi. Yuk kita pelajari!</p>
+<p>Mau dapet info video terbaru? Masukin email kamu!</p>
+<form action="https://gumroad.com/follow_from_embed_form" method="post" class="form-inline"><div class="form-group">  <div class="input-group">    <input name="email" type="email" placeholder="Your email address" class="form-control">    <input name="seller_id" type="hidden" value="1985839012652">    <span class="input-group-btn">      <button class="btn btn-default" type="submit">Subcribe</button>    </span>  </div></div></form>
+]]></content:encoded>
+      <comments>https://malescast.com/Teknik-PHP-Modern/closure-dan-anonymous-function-di-php/#disqus_thread</comments>
+    </item>
     
     <item>
       <title><![CDATA[Dynamic Class]]></title>
@@ -297,20 +312,6 @@
 <p><br>    <a class="gumroad-button" href="http://gum.co/laravel-model-factory" target="_blank">Download HD (Free)</a><br></p>
 ]]></content:encoded>
       <comments>https://malescast.com/screencast/laravel-model-factory/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title><![CDATA[Menggunakan Post, Draft dan Page]]></title>
-      <link>https://malescast.com/Eksis-dengan-HexoJS/post-draft-dan-page/</link>
-      <guid>https://malescast.com/Eksis-dengan-HexoJS/post-draft-dan-page/</guid>
-      <pubDate>Mon, 09 Nov 2015 13:53:41 GMT</pubDate>
-      <description>
-      <![CDATA[<p>Konten di HexoJS terbagi 3 yaitu Post, Draft dan Page. Mari kita pelajari ketiganya.</p>
-]]>
-      </description>
-      <content:encoded><![CDATA[<p>Konten di HexoJS terbagi 3 yaitu Post, Draft dan Page. Mari kita pelajari ketiganya.</p>
-]]></content:encoded>
-      <comments>https://malescast.com/Eksis-dengan-HexoJS/post-draft-dan-page/#disqus_thread</comments>
     </item>
     
   </channel>
